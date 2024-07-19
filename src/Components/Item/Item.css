@@ -1,13 +1,23 @@
 .item{
 width: 350px ;
+border-radius: 20px 20px 0 0;
+box-shadow: 5px 5px 8px 0 #e2e2e26b;
+
+
 }
 .item p{
-margin: 6px ;
+margin: 6px ;padding:5px 15px;
+}
+.item img{
+border-radius: 20px 20px 0 0;
 }
 
 .item-prices{
+    
     display: flex;
     gap: 20px;
+    padding: 20px;
+    justify-content: center;
 }
 
 .item-price-new{
