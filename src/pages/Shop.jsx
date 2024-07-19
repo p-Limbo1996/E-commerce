@@ -3,7 +3,7 @@ import Hero from '../Components/Hero/Hero'
 
 const Shop = () => {
   return (
-    <div>Shop
+    <div>
 
       <Hero/>
     </div>
