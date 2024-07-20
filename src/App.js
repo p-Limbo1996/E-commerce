@@ -6,6 +6,7 @@ import LoginSignup from "./pages/LoginSignup";
 import Product from "./pages/Product";
 import ShopCategory from "./pages/ShopCategory";
 import Cart from "./pages/Cart";
+import Footer from "./Components/Footer/Footer";
 const App = () => {
   return (
     <div>
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/login" element={<LoginSignup />} />
 
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
