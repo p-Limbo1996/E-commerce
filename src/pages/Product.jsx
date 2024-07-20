@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ShopContext } from "../Context/ShopContex";
+import { useParams } from 'react-router-dom'
 
 const Product = () => {
+
+ 
+  const {all_product}  = useContext(ShopContext);
+
+  const {productId}=useParams();
+
+
   return (
-    <div>Product</div>
+    <div className='product'>
+      Product
+      </div>
   )
 }
 
