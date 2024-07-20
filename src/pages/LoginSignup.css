@@ -43,7 +43,7 @@
   border-radius: 20px;
   outline: none;
   border: 1px solid #c9c9c9;
-  background: violet;
+  background: #FF4141;
   color: white;
   margin: 24px auto;
   cursor: pointer;
@@ -57,7 +57,7 @@
   font-weight: 500;
 }
 .loginsignup-login span {
-  color: violet;
+  color: #FF4141;
   font-weight: 600;}
 
 .loginsignup-agree {

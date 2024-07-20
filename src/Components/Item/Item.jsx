@@ -1,10 +1,16 @@
 import React from 'react'
 import "./Item.css"
+import { Link } from 'react-router-dom'
 const Item = ({id,name,image,new_price,old_price}) => {
+
+
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className='item'>
 
-        <img src={image} alt="" />
+        <Link to={`/product/${id}`}><img src={image} onClick={handleClick} alt="" /></Link>
         <p>{name}</p>
 
         <div className="item-prices">
