@@ -1,8 +1,11 @@
 import React from 'react'
+import CartItems from '../Components/CartItems/CartItems'
 
 const Cart = () => {
   return (
-    <div>Cart</div>
+    <div data-aos="fade-left">
+      <CartItems/>
+    </div>
   )
 }
 
