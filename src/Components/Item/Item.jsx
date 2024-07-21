@@ -8,7 +8,7 @@ const Item = ({id,name,image,new_price,old_price}) => {
     window.scrollTo(0, 0);
   };
   return (
-    <div className='item'>
+    <div className='item'  data-aos="flip-left">
 
         <Link to={`/product/${id}`}><img src={image} onClick={handleClick} alt="" /></Link>
         <p>{name}</p>

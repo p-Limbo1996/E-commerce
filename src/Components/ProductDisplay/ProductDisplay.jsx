@@ -8,7 +8,7 @@ const ProductDisplay = (props) => {
 const {addToCart}=useContext(ShopContext)
 
   return (
-    <div className="productdisplay">
+    <div className="productdisplay" data-aos="fade-up">
       <div className="productdisplay-left">
         <div className="productdisplay-img-list">
           <img src={product.image} alt="" />

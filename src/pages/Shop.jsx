@@ -7,7 +7,7 @@ import NewsLetter from '../Components/NewsLetter/NewsLetter'
 
 const Shop = () => {
   return (
-    <div>
+    <div data-aos="fade-left">
 
       <Hero/>
       <Populer/>

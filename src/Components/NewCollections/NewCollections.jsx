@@ -7,7 +7,7 @@ const NewCollections = () => {
   return (
 
   
-    <div className="new-collections">
+    <div className="new-collections" data-aos="zoom-in-right">
     <h1>NEW COLLECTIONS  </h1>
     <hr />
          <div className="collections">

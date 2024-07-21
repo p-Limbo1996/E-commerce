@@ -2,7 +2,8 @@ import React from "react";
 import "./LoginSignup.css"
 const LoginSignup = () => {
   return (
-    <div className="loginsignup">
+    <div className="loginsignup" data-aos="fade-left"
+    data-aos-duration="1000">
       <div className="loginsignup-container">
         <h1>Sign Up</h1>
         <div className="loginsignup-fields">

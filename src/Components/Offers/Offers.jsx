@@ -4,7 +4,7 @@ import exclusive_image from "../assets/exclusive_image.png"
 
 const Offers = () => {
   return (
-    <div className="offers">
+    <div className="offers" data-aos="fade-right">
       <div className="offers-left">
         <h1>Exclusive</h1>
         <h1>Offers For You</h1>

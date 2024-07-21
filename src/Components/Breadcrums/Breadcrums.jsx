@@ -7,7 +7,7 @@ const Breadcrums = (props) => {
     const{product}=props;
 
   return (
-    <div className='breadcrums'>
+    <div className='breadcrums' data-aos="fade-top">
          home <img src={arrow_icon} alt="" />
         shop <img src={arrow_icon} alt="" />
         {product.category} <img src={arrow_icon} alt="" />
