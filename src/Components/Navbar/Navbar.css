@@ -175,14 +175,12 @@
   .nav-logo p {
     font-size: 25px;
   }
-
   .nav-menu {
     display: none;
   }
   .nav-login-card {
     gap: 10px;
   }
-
   .nav-menu-visible {
     position: fixed;
     display: flex;
@@ -201,15 +199,20 @@
     color: #515151;
     font-weight: 500;
   }
-
   .open {
     transform: rotate(180deg);
   }
-
   .nav-login-right {
     display: flex;
     gap: 30px;
     padding-right: 20px;
+  }
+  .nav-card-count {
+    width: 18px;
+    height: 18px;
+    font-size: 13px;
+    margin-top: -22px;
+    margin-left: -20px;
   }
 }
 
