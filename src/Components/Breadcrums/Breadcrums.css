@@ -4,7 +4,7 @@
     align-items: center;
     font-size: 16px;
     font-weight: 600;
-    margin:40px 170px ;
+    margin:40px 140px ;
     text-transform: capitalize;
     padding-top: 50px;
 }
@@ -13,7 +13,7 @@
     .breadcrums{
         gap: 6px;
         font-size: 15px;
-        margin:30px 110px ;
+        margin:30px 40px ;
         padding-top: 35px;
     }
 }
@@ -28,7 +28,7 @@
         width: 6px;
     }
 }
-@media (max-width:800px) {
+@media (max-width:500px) {
     .breadcrums{
         gap: 4px;
         font-size: 12px;
