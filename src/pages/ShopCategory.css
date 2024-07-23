@@ -26,15 +26,13 @@
   grid-template-columns: repeat(4, 1fr);
   row-gap: 50px;
 }
-.shopcategory-products .item  {
+.shopcategory-products .item {
   width: 92%;
   margin: 0 auto;
-
 }
-.shopcategory-products .item img  {
+.shopcategory-products .item img {
   width: 100%;
   margin: 0 auto;
-
 }
 
 .shopcategory-loadmore {
@@ -64,29 +62,28 @@
   .shopcategory-sort {
     padding: 5px 10px;
     font-size: 14px;
-  
   }
-  .shopcategory-indexsort p  {
-   font-size: 14px;
+  .shopcategory-indexsort p {
+    font-size: 14px;
   }
   .shopcategory-products {
     width: 90%;
     margin: 30px auto;
     row-gap: 20px;
   }
-  .shopcategory-products .item  {
+  .shopcategory-products .item {
     width: 92%;
     margin: 0 auto;
-}
-  .shopcategory-products .item img  {
-    width: 100%;  
-}
-.shopcategory-loadmore {
-  margin: 80px auto;
-  width: 200px;
-  height: 60px;
-  font-size: 16px;
-}
+  }
+  .shopcategory-products .item img {
+    width: 100%;
+  }
+  .shopcategory-loadmore {
+    margin: 80px auto;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+  }
 }
 @media (max-width: 800px) {
   .shop-category-banner {
@@ -98,13 +95,12 @@
   .shopcategory-sort {
     padding: 5px 8px;
     font-size: 12px;
-  
   }
-  .shopcategory-indexsort p  {
-   font-size: 12px;
+  .shopcategory-indexsort p {
+    font-size: 12px;
   }
   .shopcategory-products {
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 95%;
     margin: 30px auto;
     row-gap: 20px;
@@ -115,7 +111,6 @@
     height: 55px;
     font-size: 15px;
   }
-
 }
 @media (max-width: 500px) {
   .shop-category-banner {
@@ -125,19 +120,18 @@
     width: 92%;
   }
   .shopcategory-sort {
-    padding: 5px ;
+    padding: 5px;
     font-size: 11px;
-  
   }
-  .shopcategory-sort img{
+  .shopcategory-sort img {
     width: 10px;
   }
 
-  .shopcategory-indexsort p  {
-   font-size: 11px;
+  .shopcategory-indexsort p {
+    font-size: 11px;
   }
   .shopcategory-products {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 90%;
     margin: 30px auto;
     row-gap: 20px;
@@ -148,5 +142,4 @@
     height: 50px;
     font-size: 14px;
   }
-
 }
