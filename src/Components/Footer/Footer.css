@@ -24,9 +24,7 @@
     list-style: none;
 }
 .footer-links li{
- 
    cursor: pointer;
-  
 }
 .footer-social-icon{
 display: flex;
@@ -57,4 +55,50 @@ gap: 20px;
  height: 2px;
  border-radius: 10px;
  background: #c7c7c7;
+}
+
+
+@media (max-width:800px){
+
+  .footer {
+    gap: 20px;
+  }
+  .footer-logo{
+    gap: 10px;
+}
+.footer-logo p{
+    font-size: 22px ;
+}
+.footer-logo img{
+    width:45px;
+}
+
+.footer-links{
+  font-size: 15px;
+    gap: 20px;
+}
+
+.footer-social-icon{
+  display: flex;
+  gap: 10px;
+  }
+
+  .footer-icons-container {
+    padding: 5px;
+    padding-bottom: 3px;
+
+   
+  }
+  .footer-icons-container img{
+    width: 22px;
+   
+  }
+  .footer-copyright{
+     gap: 15px;
+     margin-bottom: 15px;
+     font-size: 14px;
+  }
+  .footer-copyright hr{
+   width: 60%;
+  }
 }
