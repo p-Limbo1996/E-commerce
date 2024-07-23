@@ -80,6 +80,7 @@
 @media (max-width:500px){
     .popular{
         margin-top: -200px;
+        margin-bottom: 100px;
     }
     .popular h1{
         font-size:22px ;
